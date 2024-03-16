@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { skills } from '../constants';
+import CTA from '../components/CTA';
 
 const About = () => {
   return (
@@ -30,6 +31,10 @@ const About = () => {
               </div>
             ))}
           </div>
+        </div>
+        
+        <div>
+              <CTA />
         </div>
     </section>
   )
